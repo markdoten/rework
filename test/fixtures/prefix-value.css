@@ -1,6 +1,9 @@
 button {
   transition: height, transform 2s, width 0.3s linear;
-  background: url(transform.png)
+  background: url(transform.png);
+  background: url("transform.png");
+  background: "transform";
+  background: "foo-transform-bar";
 }
 
 @media screen {
