@@ -2,6 +2,8 @@ button {
   transition: height, transform 2s, width 0.3s linear;
   background: url(transform.png);
   background: url("transform.png");
+  background: url( transform/some.png );
+  background: url( transform );
   background: "transform";
   background: " transform ";
   background: "foo-transform-bar";
