@@ -3,6 +3,7 @@ button {
   background: url(transform.png);
   background: url("transform.png");
   background: "transform";
+  background: " transform ";
   background: "foo-transform-bar";
 }
 
