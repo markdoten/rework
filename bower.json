@@ -1,0 +1,7 @@
+{
+  "name": "rework",
+  "version": "0.20.2",
+  "main": [
+    "./rework.js"
+  ]
+}
