@@ -2780,6 +2780,7 @@ module.exports = function(str, separator) {
   return function(style){
     style.rules = style.rules.map(function(rule){
       if (!rule.selectors) return rule;
+      if (rule.selectors.indexOf('@font-face') !== -1) return rule;
       rule.selectors = rule.selectors.map(function(selector){
         if (':root' == selector) return str;
         selector = selector.replace(/^\:root\s?/, '');
